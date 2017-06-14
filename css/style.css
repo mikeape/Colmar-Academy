@@ -2,6 +2,7 @@
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  margin: 0;
 }
 body {
   margin: 0;
@@ -179,55 +180,57 @@ header .mobile {
 /* courses */
 
 .courses {
-  margin: 0 auto;
   display: flex;
   position: relative;
   top: 80px;
-  height: 750px;
   background-color: #c9cacc;
-
+  margin-bottom: 32px;
 }
 .course {
-  margin: 32px 16px 16px 32px;
-  height: 260px;
-  padding-bottom: 64px;
-  overflow: hidden;
   background: white;
+  /*margin: 5px;*/
+  height: 350px;
+  width: 300px;
+  margin-top: 16px;
+
 }
 .course .content {
-  padding-left: 16px;
-  padding-bottom: 24px;
+  margin-left: 16px;
 }
 .course img {
   width: 300px;
 }
-.column {
-  position: relative;
-  /*padding-right: -100px*/
-  top: 64px;
-  right: 64px;
-  width: 300px;
-  background-color: #c9cacc;
-}
+
 .courses>h2 {
   position: relative;
   align-items: center;
-  left: 450px;
+  left: 600px;
+  top: 20px;
+}
+.column {
+  margin: 32px;
+  position: relative;
+  top: -5px;
+  margin-bottom: 32px;
 }
 
-/* student exhibit */
 .exhibits {
-  display: flex;
-  background: red;
   position: relative;
-  top: 250px;
+  top: 80px;
+  display: flex;
 }
 .students .big {
   background: green;
   width: 60%;
+  margin-left: 24px;
 }
 .exhibits>p {
   position: relative;
   align-items: center;
   left: 450px;
+}
+.exhibits .content {
+  margin-left: 24px;
+}
+.students {
 }
