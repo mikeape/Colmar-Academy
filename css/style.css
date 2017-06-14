@@ -219,7 +219,7 @@ header .mobile {
 .exhibits {
   position: relative;
   top: 80px;
-  background: red;
+  /*background: red;*/
   display: flex;
 }
 .exhibits>h2 {
