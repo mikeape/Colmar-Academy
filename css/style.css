@@ -205,32 +205,58 @@ header .mobile {
   position: relative;
   align-items: center;
   left: 600px;
-  top: 20px;
+  top: -15px;
+  /*background: red;*/
 }
 .column {
+
   margin: 32px;
   position: relative;
-  top: -5px;
-  margin-bottom: 32px;
+  top: -1px;
+  /*margin-bottom: 32px;*/
+  /*background: green;*/
 }
-
 .exhibits {
   position: relative;
   top: 80px;
+  background: red;
   display: flex;
 }
-.students .big {
-  background: green;
-  width: 60%;
-  margin-left: 24px;
-}
-.exhibits>p {
+.exhibits>h2 {
   position: relative;
   align-items: center;
-  left: 450px;
+  left: 650px;
+  width: 500px;
+  top: -35px;
+  /*display: block;*/
+  /*background: red;*/
 }
-.exhibits .content {
+.video {
+  margin-top: 32px;
+}
+.video .big {
+  width: 60%;
+}
+
+
+/* footer */
+
+footer {
+  /*background-color: #9b9b9b;*/
+  position: relative;
+  top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .left {
   margin-left: 24px;
+  /*color: black;*/
 }
-.students {
+.right p a {
+  color: black;
+  padding: 0 16px 0 16px;
+}
+footer .left {
+  flex-grow: 1;
 }
